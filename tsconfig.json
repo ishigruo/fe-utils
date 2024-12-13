@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
       "target": "es5", // 编译目标
-      "module": "commonjs", // 模块系统
+      "module": "ES2022", // 模块系统
       "strict": true, // 启用所有严格类型检查选项
       "esModuleInterop": true, // 允许默认导入非 ES 模块
       "skipLibCheck": true, // 跳过库文件的类型检查
