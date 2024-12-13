@@ -18,7 +18,13 @@ npm login
 // 自动更改版本号，并且commit
 // npm version xxx
 
-// 控制台会返回下一个小版本号 如v1.0.1
+// 控制台会返回下一个主版本号 如v1.0.0 -> v2.0.0 
+npm version major
+
+// 控制台会返回下一个次版本号 如v1.0.0 -> v1.1.0
+npm version minor
+
+// 控制台会返回下一个小版本号 如v1.0.0 -> v1.0.1
 npm version patch
 
 // 重新发布
